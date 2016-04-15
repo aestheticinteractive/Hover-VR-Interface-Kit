@@ -333,7 +333,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
-  m_LocalRotation: {x: .243210331, y: -.0885213315, z: .330366105, w: .907673359}
+  m_LocalRotation: {x: 0.24321035, y: -0.08852134, z: 0.33036613, w: 0.9076734}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -384,7 +384,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 4
@@ -531,21 +531,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -488157941, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 41ba672d9b0b2284c837e284d455520e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextSize: 30
-  TextColor: {r: .324394464, g: .882352948, b: .85926491, a: 1}
+  TextColor: {r: 0.32439446, g: 0.88235295, b: 0.8592649, a: 1}
   TextFont: Tahoma
   ArrowIconColor: {r: 1, g: 1, b: 1, a: 1}
   ToggleIconColor: {r: 1, g: 1, b: 1, a: 1}
-  BackgroundColor: {r: .391544104, g: .601673365, b: .75, a: .666666687}
+  BackgroundColor: {r: 0.3915441, g: 0.60167336, b: 0.75, a: 0.6666667}
   EdgeColor: {r: 1, g: 1, b: 1, a: 1}
-  HighlightColor: {r: .533604264, g: .683823526, b: .110618494, a: 1}
-  SelectionColor: {r: .899999976, g: .100000046, b: .613103509, a: 1}
-  SliderTrackColor: {r: .100000001, g: .100000001, b: .100000001, a: .5}
-  SliderFillColor: {r: .100000001, g: .899999976, b: .200000003, a: .5}
-  SliderTickColor: {r: 1, g: 1, b: 1, a: .200000003}
+  HighlightColor: {r: 0.53360426, g: 0.6838235, b: 0.110618494, a: 1}
+  SelectionColor: {r: 0.9, g: 0.100000046, b: 0.6131035, a: 1}
+  SliderTrackColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.5}
+  SliderFillColor: {r: 0.1, g: 0.9, b: 0.2, a: 0.5}
+  SliderTickColor: {r: 1, g: 1, b: 1, a: 0.2}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -554,12 +554,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
   Id: 
-  Label: Parent 3
+  Label: Parent 4
   RelativeSize: 1
   IsVisible: 1
   IsEnabled: 1
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 6
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 4
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 5
@@ -678,7 +678,7 @@ MonoBehaviour:
   SliderSnaps: 0
   SliderRangeMin: 0
   SliderRangeMax: 1
-  SliderValue: .5
+  SliderValue: 0.5
   SliderAllowJump: 1
   SliderFillStartingPoint: 2
 --- !u!114 &11400014
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100012}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 4
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 5
@@ -732,7 +732,7 @@ MonoBehaviour:
   SliderSnaps: 0
   SliderRangeMin: 0
   SliderRangeMax: 1
-  SliderValue: .5
+  SliderValue: 0.5
   SliderAllowJump: 1
   SliderFillStartingPoint: 0
 --- !u!114 &11400018
@@ -743,21 +743,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 100018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -488157941, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 41ba672d9b0b2284c837e284d455520e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextSize: 30
-  TextColor: {r: 1, g: .986004055, b: .492647052, a: 1}
+  TextColor: {r: 1, g: 0.98600405, b: 0.49264705, a: 1}
   TextFont: Tahoma
   ArrowIconColor: {r: 1, g: 1, b: 1, a: 1}
   ToggleIconColor: {r: 1, g: 1, b: 1, a: 1}
-  BackgroundColor: {r: .100000001, g: .100000001, b: .100000001, a: .666000009}
+  BackgroundColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.666}
   EdgeColor: {r: 1, g: 1, b: 1, a: 1}
-  HighlightColor: {r: .522058845, g: .213496953, b: .138192058, a: 1}
-  SelectionColor: {r: .899999976, g: .61310339, b: .100000046, a: 1}
-  SliderTrackColor: {r: .100000001, g: .100000001, b: .100000001, a: .5}
-  SliderFillColor: {r: .100000001, g: .899999976, b: .200000003, a: .5}
-  SliderTickColor: {r: 1, g: 1, b: 1, a: .200000003}
+  HighlightColor: {r: 0.52205884, g: 0.21349695, b: 0.13819206, a: 1}
+  SelectionColor: {r: 0.9, g: 0.6131034, b: 0.100000046, a: 1}
+  SliderTrackColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.5}
+  SliderFillColor: {r: 0.1, g: 0.9, b: 0.2, a: 0.5}
+  SliderTickColor: {r: 1, g: 1, b: 1, a: 0.2}
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -766,7 +766,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 118527433, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 27f0ff91685882a4dabff32a466b1f63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Hovercast VR
@@ -778,21 +778,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -488157941, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 41ba672d9b0b2284c837e284d455520e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextSize: 30
-  TextColor: {r: .324394464, g: .882352948, b: .85926491, a: 1}
+  TextColor: {r: 0.32439446, g: 0.88235295, b: 0.8592649, a: 1}
   TextFont: Tahoma
   ArrowIconColor: {r: 1, g: 1, b: 1, a: 1}
   ToggleIconColor: {r: 1, g: 1, b: 1, a: 1}
-  BackgroundColor: {r: .100000001, g: .100000001, b: .100000001, a: .666000009}
+  BackgroundColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.666}
   EdgeColor: {r: 1, g: 1, b: 1, a: 1}
-  HighlightColor: {r: .533604264, g: .683823526, b: .110618494, a: 1}
-  SelectionColor: {r: .899999976, g: .100000046, b: .613103509, a: 1}
-  SliderTrackColor: {r: .100000001, g: .100000001, b: .100000001, a: .5}
-  SliderFillColor: {r: .100000001, g: .899999976, b: .200000003, a: .5}
-  SliderTickColor: {r: 1, g: 1, b: 1, a: .200000003}
+  HighlightColor: {r: 0.53360426, g: 0.6838235, b: 0.110618494, a: 1}
+  SelectionColor: {r: 0.9, g: 0.100000046, b: 0.6131035, a: 1}
+  SliderTrackColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.5}
+  SliderFillColor: {r: 0.1, g: 0.9, b: 0.2, a: 0.5}
+  SliderTickColor: {r: 1, g: 1, b: 1, a: 0.2}
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 5
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 5
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 42094754, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b8a73834ef15a45afe904384e56469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 5
@@ -1017,21 +1017,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 100032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -488157941, guid: 0287263cc8027804ca949b1a81526620, type: 3}
+  m_Script: {fileID: 11500000, guid: 41ba672d9b0b2284c837e284d455520e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextSize: 30
-  TextColor: {r: 1, g: .986004055, b: .492647052, a: 1}
+  TextColor: {r: 1, g: 0.98600405, b: 0.49264705, a: 1}
   TextFont: Tahoma
   ArrowIconColor: {r: 1, g: 1, b: 1, a: 1}
   ToggleIconColor: {r: 1, g: 1, b: 1, a: 1}
-  BackgroundColor: {r: .100000001, g: .100000001, b: .100000001, a: .666000009}
+  BackgroundColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.666}
   EdgeColor: {r: 1, g: 1, b: 1, a: 1}
-  HighlightColor: {r: .522058845, g: .213496953, b: .138192058, a: 1}
-  SelectionColor: {r: .899999976, g: .61310339, b: .100000046, a: 1}
-  SliderTrackColor: {r: .100000001, g: .100000001, b: .100000001, a: .5}
-  SliderFillColor: {r: .676470578, g: .662337422, b: .164143592, a: .501960814}
-  SliderTickColor: {r: 1, g: 1, b: 1, a: .200000003}
+  HighlightColor: {r: 0.52205884, g: 0.21349695, b: 0.13819206, a: 1}
+  SelectionColor: {r: 0.9, g: 0.6131034, b: 0.100000046, a: 1}
+  SliderTrackColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.5}
+  SliderFillColor: {r: 0.6764706, g: 0.6623374, b: 0.16414359, a: 0.5019608}
+  SliderTickColor: {r: 1, g: 1, b: 1, a: 0.2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -1043,4 +1043,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100016}
   m_IsPrefabParent: 1
-  m_IsExploded: 1
